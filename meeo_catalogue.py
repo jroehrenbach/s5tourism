@@ -71,6 +71,8 @@ def get_products(dt0, dt1, product_type, region_wkt):
 			items[key] = item.assets
 	return items
 
+vienna_wkt = "POLYGON ((16.193377 48.228980, 16.424090 48.317641, 16.593004 48.223948, 16.424776 48.122750, 16.23209 48.123209, 16.193377 48.228980))"
+
 
 if __name__ == "__main__":
 	dt0 = datetime(2020, 1, 1)
